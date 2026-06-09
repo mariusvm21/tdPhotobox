@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>index td8 : fetch</title>
+  <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+<main id="photo">
+<h1 id="titre_principal">Photo : 105</h1>
+
+<section id="la_photo">
+   <img src="">
+   <h4>titre</h4>
+      <p>description</p>
+      <p>type, defX x defY</p>
+      <h4 id="la_categorie">categorie : categorie de l'image</h4>
+      <h4>commentaires : </h4>
+      <ul id="les_commentaires">
+          </ul>
+</section>
+</main>
+
+<div id="navigation_galerie" style="text-align: center; margin: 20px 0;">
+    <button id="btn_first">First</button>
+    <button id="btn_last">Last</button>
+    <button id="bouton_galerie">Load</button>
+    <button id="btn_prev">Prev</button>
+    <button id="btn_next">Next</button>
+    
+</div>
+
+<div id="la_galerie"></div>
+
+<script id="photoTemplate" type="text/x-handlebars-template"></script>
+<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+<script src='js/bundle.js' defer></script>
+</body>
+</html>
